@@ -1,0 +1,75 @@
+7d3eecc | 2026-06-06 | wboussah | fix save bug
+1c74e67 | 2026-06-06 | Sid Ahmed | factoriser music for cheat and on enter menu
+2812f1c | 2026-06-06 | wboussah | little easter eggs added and some cleaning
+a58f8e1 | 2026-06-06 | wboussah | cleared artefacts
+e1e8cc3 | 2026-06-06 | wboussah | docstrings
+8799efa | 2026-06-05 | wboussah | mypy strict
+a64663a | 2026-06-05 | wboussah | flake8 and integration of cheat mode
+585ec78 | 2026-06-05 | wboussah | virer les sujets
+db53fb1 | 2026-06-05 | wboussah | factorisation
+d7a5f47 | 2026-06-05 | Sid Ahmed | Merge branch 'main' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957
+069d03a | 2026-06-05 | Sid Ahmed | pacgums
+e1033e2 | 2026-06-05 | wboussah | updated cheat mode
+dfd6109 | 2026-06-05 | wboussah | Merge branch 'main' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957
+cf4aaa8 | 2026-06-05 | wboussah | fixed cheat mode and added sprite animation for zelda in win victory
+d910cf8 | 2026-06-05 | Sid Ahmed | brrrrrr
+17a1049 | 2026-06-04 | wboussah | added sound for connecting and disconnecting controller
+05dc31b | 2026-06-04 | wboussah | Merge branch 'main' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957
+1490654 | 2026-06-04 | wboussah | added musics and sfx
+b3ff8b9 | 2026-06-04 | Sid Ahmed | real time detect plug/unplug controller
+48f7efb | 2026-06-04 | wboussah | up
+ec708f1 | 2026-06-01 | wboussah | removed the deprecated resets of endings
+4d2963d | 2026-06-01 | wboussah | added in on_enter of main menu the reset of the in game elements for scoring and all, but will need later to delete the deprecated resets from endings and game overs
+4cf24da | 2026-06-01 | wboussah | fix menu pause not reinitializing the score and lives
+59399e9 | 2026-06-01 | wboussah | title name of levels
+8861088 | 2026-05-31 | wboussah | fixed box help beeing seen at the start of the game
+99c7b02 | 2026-05-31 | wboussah | Merge branch 'new_improvements' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957 into new_improvements
+f315e18 | 2026-05-31 | wboussah | let's go merge
+fcae928 | 2026-05-29 | Sid Ahmed | guez
+741cfd9 | 2026-05-29 | Sid Ahmed | Merge branch 'main' into new_improvements
+9afa450 | 2026-05-29 | Sid Ahmed | recording scatter timer
+30bd928 | 2026-05-28 | wboussah | Merge branch 'new_improvements' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957 into new_improvements
+218330d | 2026-05-28 | wboussah | save for pics created system and connected endings
+9ab2841 | 2026-05-26 | Sid Ahmed | XBox 360 Controller
+e20c16c | 2026-05-25 | Sid Ahmed | Merge branch 'main' into new_improvements
+cc46e7a | 2026-05-25 | wboussah | on craint degun
+a728cc7 | 2026-05-24 | Wissem | Merge pull request #4 from 42learners/new_improvements
+061a0ed | 2026-05-24 | Sid Ahmed | merge
+be5ce88 | 2026-05-24 | wboussah | Fix fps and sprites for cheat mode
+960870a | 2026-05-23 | Sid Ahmed | fix debug pathfinding
+a0af561 | 2026-05-23 | Sid Ahmed | separate AI and maze config for each level
+6f0e681 | 2026-05-22 | Sid Ahmed | load highscores on game over
+9031e60 | 2026-05-22 | wboussah | deleted the deprecated layer
+0790e28 | 2026-05-21 | Sid Ahmed | merge
+2e8ff1e | 2026-05-21 | Sid Ahmed | Merge branch 'main' into new_improvements
+d7a0435 | 2026-05-21 | wboussah | true endind, basic ending and sprites for enemies.
+79205c0 | 2026-05-21 | Sid Ahmed | fix bug event+ fix enemies spawn
+c864732 | 2026-05-20 | Sid Ahmed | Debug panel and visual tracer
+c16bd75 | 2026-05-18 | wboussah | skins for enemmies
+8b58a3c | 2026-05-18 | Sid Ahmed | Merge pull request #3 from 42learners/new_improvements
+7a21656 | 2026-05-18 | Sid Ahmed | Merge branch 'main' into new_improvements
+2a04cd3 | 2026-05-18 | wboussah | all sprites enemmies
+3944b7e | 2026-05-18 | Sid Ahmed | enemies implemented in all levels
+30eec1a | 2026-05-17 | Sid Ahmed | Merge pull request #2 from 42learners/new_improvements
+1d0edbb | 2026-05-17 | Sid Ahmed | Merge branch 'main' into new_improvements
+9706cdf | 2026-05-17 | wboussah | lets go
+9cb9307 | 2026-05-17 | Sid Ahmed | enemy logic done
+7ca484e | 2026-05-15 | Sid Ahmed | Merge pull request #1 from 42learners/improvements
+e8e0172 | 2026-05-15 | Sid Ahmed | Merge branch 'main' into improvements
+94dc958 | 2026-05-15 | sizem | 4 distinct AI
+6bfe50c | 2026-05-15 | wboussah | help
+6cdc725 | 2026-05-11 | sizem | 4 enemies spawn
+2c58aac | 2026-05-10 | sizem | full AI implementation + debug text visualizer
+0484e25 | 2026-05-08 | sizem | add simple chasing AI
+813709e | 2026-05-03 | wboussah | added music, ui, special item
+54045e5 | 2026-05-01 | sizem | game integration
+6c259ec | 2026-04-30 | sizem | fix path to ressources
+b5f4afa | 2026-04-29 | wboussah | architecture principale faite
+c2f7c22 | 2026-04-29 | sizem | highscores handling
+ef929d7 | 2026-04-27 | sizem | faulty config handling
+8f9717d | 2026-04-26 | Sid IZEM | add config module and main.py entry point
+dc0f0d4 | 2026-04-26 | Sid IZEM | folder rework and fix Makefile
+8ae7bb3 | 2026-04-26 | wboussah | maze display now operational and folder assets ready
+dc7be07 | 2026-04-25 | Sid IZEM | Makefile
+873c65d | 2026-04-24 | wboussah | learning pygame and the package manager
+936f308 | 2026-04-23 | wboussah | init project

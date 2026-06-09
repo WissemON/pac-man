@@ -1,0 +1,951 @@
+COMMIT 7d3eecc | 2026-06-06 | wboussah | fix save bug
+M	pacman/game/scenes/game_over.py
+M	pacman/highscores.json
+
+COMMIT 1c74e67 | 2026-06-06 | Sid Ahmed | factoriser music for cheat and on enter menu
+M	config.json
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/level_base.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/highscores.json
+
+COMMIT 2812f1c | 2026-06-06 | wboussah | little easter eggs added and some cleaning
+M	.flake8
+A	pacman/assets/music/juliette.mp3
+A	pacman/assets/music/pacman_start.mp3
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/items.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/title_scene.py
+
+COMMIT a58f8e1 | 2026-06-06 | wboussah | cleared artefacts
+M	.gitignore
+D	errors.txt
+D	pacman/assets/ui/text.png
+
+COMMIT e1e8cc3 | 2026-06-06 | wboussah | docstrings
+M	pacman/config.py
+M	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/input.py
+M	pacman/game/items.py
+M	pacman/game/levels/__init__.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/enemy_factory.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/level_base.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/save.py
+M	pacman/game/scene_manager.py
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/pause.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/title_scene.py
+M	pacman/game/scenes/true_ending.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+M	pacman/game/sprites.py
+M	pacman/game/type_defs.py
+M	pacman/game/ui.py
+M	pacman/highscores.py
+M	pacman/main.py
+M	pacman/resources.py
+
+COMMIT 8799efa | 2026-06-05 | wboussah | mypy strict
+M	.gitignore
+M	pacman/config.py
+M	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/input.py
+M	pacman/game/items.py
+M	pacman/game/levels/__init__.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/enemy_factory.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/level_base.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/save.py
+M	pacman/game/scene_manager.py
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/pause.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/title_scene.py
+M	pacman/game/scenes/true_ending.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+M	pacman/game/sprites.py
+A	pacman/game/type_defs.py
+M	pacman/game/ui.py
+M	pacman/highscores.py
+M	pacman/main.py
+M	pyproject.toml
+A	typings/mazegenerator/__init__.pyi
+A	typings/mazegenerator/mazegenerator.pyi
+
+COMMIT a64663a | 2026-06-05 | wboussah | flake8 and integration of cheat mode
+A	pacman/assets/music/sfx/cheat_activated.wav
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/enemy_factory.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/level_base.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/saves/save.txt
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+M	pacman/highscores.py
+
+COMMIT 585ec78 | 2026-06-05 | wboussah | virer les sujets
+D	pacman/assets/items/en.subject (1).pdf
+D	pacman/assets/items/en.subject.pdf
+D	pacman/assets/music/sfx/62. SFX (Misc).mp3
+D	pacman/assets/music/sfx/63. Voice (Misc).mp3
+D	pacman/assets/music/sfx/sfx.mp3
+D	pacman/assets/player/bubulle.psd
+
+COMMIT db53fb1 | 2026-06-05 | wboussah | factorisation
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/level_base.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/saves/save.txt
+M	pacman/game/scene_manager.py
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/true_ending.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+
+COMMIT d7a5f47 | 2026-06-05 | Sid Ahmed | Merge branch 'main' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957
+COMMIT 069d03a | 2026-06-05 | Sid Ahmed | pacgums
+M	pacman/game/entities.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/ui.py
+
+COMMIT e1033e2 | 2026-06-05 | wboussah | updated cheat mode
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/true_ending.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+M	pacman/highscores.json
+M	pacman/highscores.py
+
+COMMIT dfd6109 | 2026-06-05 | wboussah | Merge branch 'main' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957
+COMMIT cf4aaa8 | 2026-06-05 | wboussah | fixed cheat mode and added sprite animation for zelda in win victory
+M	config.json
+A	pacman/assets/music/sfx/death_link.mp3
+D	pacman/assets/music/sfx/en.subject.pdf
+A	pacman/assets/music/sfx/link_hurt.wav
+A	pacman/assets/music/sfx/pause_move.wav
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/save.py
+M	pacman/game/saves/save.txt
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/pause.py
+M	pacman/game/scenes/play_scene.py
+
+COMMIT d910cf8 | 2026-06-05 | Sid Ahmed | brrrrrr
+M	config.json
+M	pacman/game/scenes/play_scene.py
+
+COMMIT 17a1049 | 2026-06-04 | wboussah | added sound for connecting and disconnecting controller
+M	pacman/game/game.py
+
+COMMIT 05dc31b | 2026-06-04 | wboussah | Merge branch 'main' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957
+COMMIT 1490654 | 2026-06-04 | wboussah | added musics and sfx
+A	pacman/assets/music/credits_zelda.mp3
+A	pacman/assets/music/sfx/connected_controller.wav
+A	pacman/assets/music/sfx/disconnected_controller.wav
+A	pacman/assets/music/sfx/finish_saving.wav
+A	pacman/assets/music/sfx/pause_exit.wav
+A	pacman/assets/music/sfx/pause_start.wav
+M	pacman/game/game.py
+M	pacman/game/scenes/pause.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+
+COMMIT b3ff8b9 | 2026-06-04 | Sid Ahmed | real time detect plug/unplug controller
+M	config.json
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/title_scene.py
+
+COMMIT 48f7efb | 2026-06-04 | wboussah | up
+M	pacman/game/scenes/pause.py
+
+COMMIT ec708f1 | 2026-06-01 | wboussah | removed the deprecated resets of endings
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/true_ending.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+
+COMMIT 4d2963d | 2026-06-01 | wboussah | added in on_enter of main menu the reset of the in game elements for scoring and all, but will need later to delete the deprecated resets from endings and game overs
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/pause.py
+
+COMMIT 4cf24da | 2026-06-01 | wboussah | fix menu pause not reinitializing the score and lives
+M	pacman/game/scenes/pause.py
+
+COMMIT 59399e9 | 2026-06-01 | wboussah | title name of levels
+M	pacman/game/levels/__init__.py
+M	pacman/game/scenes/play_scene.py
+
+COMMIT 8861088 | 2026-05-31 | wboussah | fixed box help beeing seen at the start of the game
+M	pacman/game/scenes/main_menu_scene.py
+
+COMMIT 99c7b02 | 2026-05-31 | wboussah | Merge branch 'new_improvements' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957 into new_improvements
+COMMIT f315e18 | 2026-05-31 | wboussah | let's go merge
+M	config.json
+A	pacman/assets/pics/final_round.png
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/saves/save.txt
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/ui.py
+
+COMMIT fcae928 | 2026-05-29 | Sid Ahmed | guez
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/true_ending.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+
+COMMIT 741cfd9 | 2026-05-29 | Sid Ahmed | Merge branch 'main' into new_improvements
+COMMIT 9afa450 | 2026-05-29 | Sid Ahmed | recording scatter timer
+M	pacman/game/ai.md
+M	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/scenes/play_scene.py
+
+COMMIT 30bd928 | 2026-05-28 | wboussah | Merge branch 'new_improvements' of github.com:42learners/Common-core---Pacman-010a5fc8-9f09-4641-9598-d909f1ad0957 into new_improvements
+COMMIT 218330d | 2026-05-28 | wboussah | save for pics created system and connected endings
+M	config.json
+A	pacman/assets/music/credits.mp3
+A	pacman/assets/music/sfx/62. SFX (Misc).mp3
+A	pacman/assets/music/sfx/63. Voice (Misc).mp3
+A	pacman/assets/music/sfx/en.subject.pdf
+A	pacman/assets/music/win_level.mp3
+M	pacman/assets/player/base_win.png
+M	pacman/assets/player/blue_win.png
+M	pacman/assets/player/red_win.png
+M	pacman/assets/player/yellow_win.png
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/hyrule_field.py
+A	pacman/game/save.py
+A	pacman/game/saves/save.txt
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/win_screen_base.py
+M	pacman/highscores.json
+
+COMMIT 9ab2841 | 2026-05-26 | Sid Ahmed | XBox 360 Controller
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/input.py
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/pause.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/title_scene.py
+
+COMMIT e20c16c | 2026-05-25 | Sid Ahmed | Merge branch 'main' into new_improvements
+COMMIT cc46e7a | 2026-05-25 | wboussah | on craint degun
+M	config.json
+A	pacman/assets/music/zelda_theme.mp3
+A	pacman/assets/player/base_win.png
+A	pacman/assets/player/blue_win.png
+A	pacman/assets/player/red_win.png
+A	pacman/assets/player/yellow_win.png
+M	pacman/config.py
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/items.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/pause.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/ui.py
+M	pacman/highscores.json
+
+COMMIT a728cc7 | 2026-05-24 | Wissem | Merge pull request #4 from 42learners/new_improvements
+COMMIT 061a0ed | 2026-05-24 | Sid Ahmed | merge
+COMMIT be5ce88 | 2026-05-24 | wboussah | Fix fps and sprites for cheat mode
+A	pacman/assets/enemies/cats.gif
+A	pacman/assets/enemies/cucoos.png
+A	pacman/assets/enemies/tingle_blue.png
+A	pacman/assets/enemies/tingle_green.png
+A	pacman/assets/enemies/tingle_pink.png
+A	pacman/assets/enemies/tingle_white.png
+A	pacman/assets/player/link_house.png
+M	pacman/assets/player/sleep.png
+A	pacman/assets/player/zelda2.png
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/level_base.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/weird_ending.py
+M	pacman/game/scenes/win_screen_base.py
+
+COMMIT 960870a | 2026-05-23 | Sid Ahmed | fix debug pathfinding
+M	pacman/game/game.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/main.py
+
+COMMIT a0af561 | 2026-05-23 | Sid Ahmed | separate AI and maze config for each level
+M	config.json
+M	pacman/config.json
+M	pacman/config.py
+M	pacman/game/game.py
+M	pacman/game/levels/__init__.py
+M	pacman/game/levels/enemy_factory.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/main.py
+
+COMMIT 6f0e681 | 2026-05-22 | Sid Ahmed | load highscores on game over
+M	pacman/game/entities.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/highscores.json
+
+COMMIT 9031e60 | 2026-05-22 | wboussah | deleted the deprecated layer
+M	pacman/game/game.py
+M	pacman/game/scenes/play_scene.py
+
+COMMIT 0790e28 | 2026-05-21 | Sid Ahmed | merge
+M	pacman/config.json
+M	pacman/game/scenes/main_menu_scene.py
+
+COMMIT 2e8ff1e | 2026-05-21 | Sid Ahmed | Merge branch 'main' into new_improvements
+COMMIT d7a0435 | 2026-05-21 | wboussah | true endind, basic ending and sprites for enemies.
+M	errors.txt
+R100	pacman/assets/enemies/Vaati.png	pacman/assets/enemies/vaati.png
+A	pacman/assets/pics/TMC_Credits.png
+A	pacman/assets/player/bubulle.psd
+M	pacman/assets/player/minish_cap_sprites.png
+A	pacman/assets/player/sleep.png
+A	pacman/assets/player/zelda.gif
+M	pacman/config.json
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/items.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/play_scene.py
+A	pacman/game/scenes/true_ending.py
+A	pacman/game/scenes/weird_ending.py
+D	pacman/game/scenes/win_screen.py
+A	pacman/game/scenes/win_screen_base.py
+M	pacman/game/sprites.py
+
+COMMIT 79205c0 | 2026-05-21 | Sid Ahmed | fix bug event+ fix enemies spawn
+M	pacman/game/game.py
+M	pacman/game/items.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+
+COMMIT c864732 | 2026-05-20 | Sid Ahmed | Debug panel and visual tracer
+M	pacman/config.json
+M	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/scenes/play_scene.py
+
+COMMIT c16bd75 | 2026-05-18 | wboussah | skins for enemmies
+D	pacman/assets/enemies/tektike.png
+M	pacman/game/entities.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/deepwood_shrine.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/wind_ruins.py
+
+COMMIT 8b58a3c | 2026-05-18 | Sid Ahmed | Merge pull request #3 from 42learners/new_improvements
+COMMIT 7a21656 | 2026-05-18 | Sid Ahmed | Merge branch 'main' into new_improvements
+COMMIT 2a04cd3 | 2026-05-18 | wboussah | all sprites enemmies
+A	pacman/assets/enemies/Vaati.png
+A	pacman/assets/enemies/beetle.png
+A	pacman/assets/enemies/final_battle.png
+A	pacman/assets/enemies/ghini.png
+A	pacman/assets/enemies/ghosts.png
+A	pacman/assets/enemies/helmerauts.png
+A	pacman/assets/enemies/puffstool.png
+A	pacman/assets/enemies/ropes.gif
+A	pacman/assets/enemies/ropes.png
+A	pacman/assets/enemies/sharks.png
+A	pacman/assets/enemies/skulls.png
+A	pacman/assets/enemies/spark.png
+A	pacman/assets/enemies/tektike.png
+
+COMMIT 3944b7e | 2026-05-18 | Sid Ahmed | enemies implemented in all levels
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/items.py
+M	pacman/game/levels/__init__.py
+M	pacman/game/levels/castor_wilds.py
+M	pacman/game/levels/cave.py
+M	pacman/game/levels/cave_of_flames.py
+M	pacman/game/levels/cloud_tops.py
+M	pacman/game/levels/dark_hyrule_castle.py
+M	pacman/game/levels/deepwood_shrine.py
+A	pacman/game/levels/enemy_factory.py
+M	pacman/game/levels/final_battle.py
+M	pacman/game/levels/fortress_winds.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/level_base.py
+M	pacman/game/levels/minish_woods.py
+M	pacman/game/levels/mount_crenel.py
+M	pacman/game/levels/palace_of_winds.py
+M	pacman/game/levels/royal_valley.py
+M	pacman/game/levels/temple_of_droplets.py
+M	pacman/game/levels/vaati_battle.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/scene_manager.py
+M	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/pause.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/title_scene.py
+M	pacman/game/scenes/win_screen.py
+M	pacman/game/sprites.py
+M	pacman/highscores.json
+
+COMMIT 30eec1a | 2026-05-17 | Sid Ahmed | Merge pull request #2 from 42learners/new_improvements
+COMMIT 1d0edbb | 2026-05-17 | Sid Ahmed | Merge branch 'main' into new_improvements
+COMMIT 9706cdf | 2026-05-17 | wboussah | lets go
+A	pacman/assets/enemies/octorok.gif
+A	pacman/assets/enemies/octorok_pinky.png
+A	pacman/assets/music/game_over.mp3
+A	pacman/assets/music/sfx/exit_menu.mp3
+A	pacman/assets/music/sfx/move_menu.mp3
+A	pacman/assets/ui/map.gif
+M	pacman/config.json
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/scene_manager.py
+M	pacman/game/scenes/__init__.py
+A	pacman/game/scenes/game_over.py
+M	pacman/game/scenes/main_menu_scene.py
+A	pacman/game/scenes/pause.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/scenes/title_scene.py
+A	pacman/game/scenes/win_screen.py
+M	pacman/game/ui.py
+M	pacman/highscores.json
+M	pacman/highscores.py
+
+COMMIT 9cb9307 | 2026-05-17 | Sid Ahmed | enemy logic done
+M	Makefile
+M	pacman/config.json
+M	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/levels/hyrule_field.py
+M	pacman/game/levels/wind_ruins.py
+M	pacman/game/scenes/play_scene.py
+
+COMMIT 7ca484e | 2026-05-15 | Sid Ahmed | Merge pull request #1 from 42learners/improvements
+COMMIT e8e0172 | 2026-05-15 | Sid Ahmed | Merge branch 'main' into improvements
+COMMIT 94dc958 | 2026-05-15 | sizem | 4 distinct AI
+A	.flake8
+M	Makefile
+M	config.json
+M	pacman/config.py
+A	pacman/game/ai.md
+M	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/levels/forest_level.py
+M	pacman/game/scenes/play_scene.py
+
+COMMIT 6bfe50c | 2026-05-15 | wboussah | help
+A	errors.txt
+D	pacman/assets/01_level_floor.png
+D	pacman/assets/01_level_walls.png
+A	pacman/assets/fonts/PixelOperator-Bold.ttf
+A	pacman/assets/fonts/zelda-gba.ttf
+A	pacman/assets/items/backgrounds.png
+A	pacman/assets/items/bow_of_light.png
+A	pacman/assets/items/en.subject (1).pdf
+A	pacman/assets/items/en.subject.pdf
+M	pacman/assets/items/items.png
+A	pacman/assets/items/power_bracelets.png
+A	pacman/assets/levels/level_1/hyrule_field.png
+A	pacman/assets/levels/level_10/tiles.png
+A	pacman/assets/levels/level_11/tiles.png
+A	pacman/assets/levels/level_11/tiles2.png
+A	pacman/assets/levels/level_12/tiles.png
+A	pacman/assets/levels/level_13/tiles.png
+A	pacman/assets/levels/level_14/tiles1.png
+A	pacman/assets/levels/level_15/tiles.png
+A	pacman/assets/levels/level_15/tiles2.png
+A	pacman/assets/levels/level_15/vaati.png
+A	pacman/assets/levels/level_16/tiles.png
+A	pacman/assets/levels/level_16/tiles2.png
+A	pacman/assets/levels/level_2/bridge.png
+A	pacman/assets/levels/level_2/minish_woods.png
+A	pacman/assets/levels/level_2/minish_woods_2.png
+A	pacman/assets/levels/level_3/tiles_1.png
+A	pacman/assets/levels/level_3/tiles_2.png
+A	pacman/assets/levels/level_4/mount_crenel.png
+A	pacman/assets/levels/level_5/tiles1.png
+A	pacman/assets/levels/level_5/tiles2.png
+A	pacman/assets/levels/level_6/castor_wilds.png
+A	pacman/assets/levels/level_6/castor_wilds2.png
+A	pacman/assets/levels/level_7/tiles1.png
+A	pacman/assets/levels/level_8/tiles.png
+A	pacman/assets/levels/level_9/tiles.png
+A	pacman/assets/music/file_select.mp3
+D	pacman/assets/music/levels/01_hyrule_field.mp3
+A	pacman/assets/music/levels/level_01/01_hyrule_field_intro.mp3
+A	pacman/assets/music/levels/level_01/01_hyrule_field_loop.mp3
+A	pacman/assets/music/levels/level_02/MinishWoods.mp3
+A	pacman/assets/music/levels/level_02/minish_woods_intro.mp3
+A	pacman/assets/music/levels/level_02/minish_woods_loop.mp3
+A	pacman/assets/music/levels/level_03/DeepwoodShrine.mp3
+A	pacman/assets/music/levels/level_03/deepwood_shrine.mp3
+A	pacman/assets/music/levels/level_04/mt_crenel.mp3
+A	pacman/assets/music/levels/level_04/mt_crenel_loop.mp3
+A	pacman/assets/music/levels/level_05/cave_of_flames.mp3
+A	pacman/assets/music/levels/level_05/cave_of_flames_intro.mp3
+A	pacman/assets/music/levels/level_05/cave_of_flames_loop.mp3
+A	pacman/assets/music/levels/level_06/CastorWilds.mp3
+A	pacman/assets/music/levels/level_06/castor_wilds_intro.mp3
+A	pacman/assets/music/levels/level_06/castor_wilds_loop.mp3
+A	pacman/assets/music/levels/level_07/WindRuins.mp3
+A	pacman/assets/music/levels/level_07/wind_ruins_intro.mp3
+A	pacman/assets/music/levels/level_07/wind_ruins_loop.mp3
+A	pacman/assets/music/levels/level_08/fortress_winds.mp3
+A	pacman/assets/music/levels/level_08/fortress_winds_loop.mp3
+A	pacman/assets/music/levels/level_09/Cave.mp3
+A	pacman/assets/music/levels/level_09/cave_loop.mp3
+A	pacman/assets/music/levels/level_10/temple_loop.mp3
+A	pacman/assets/music/levels/level_11/royal_valley_loop.mp3
+A	pacman/assets/music/levels/level_12/cloud_tops_intro.mp3
+A	pacman/assets/music/levels/level_12/cloud_tops_loop.mp3
+A	pacman/assets/music/levels/level_13/PalaceOfWinds.mp3
+A	pacman/assets/music/levels/level_13/temple_intro.mp3
+A	pacman/assets/music/levels/level_13/temple_loop.mp3
+A	pacman/assets/music/levels/level_14/dark_hyrule_castle.mp3
+A	pacman/assets/music/levels/level_14/dark_hyrule_castle_intro.mp3
+A	pacman/assets/music/levels/level_14/dark_hyrule_castle_loop.mp3
+A	pacman/assets/music/levels/level_15/VaatiBattle.mp3
+A	pacman/assets/music/levels/level_15/vaati_battle_loop.mp3
+A	pacman/assets/music/levels/level_16/VaatiWrath.mp3
+A	pacman/assets/music/levels/level_16/finale_intro.mp3
+A	pacman/assets/music/levels/level_16/finale_loop.mp3
+A	pacman/assets/music/sfx/press_menu.mp3
+A	pacman/assets/music/sfx/sfx.mp3
+A	pacman/assets/pics/TMC_1.png
+A	pacman/assets/pics/TMC_10.png
+A	pacman/assets/pics/TMC_11.png
+A	pacman/assets/pics/TMC_12.png
+A	pacman/assets/pics/TMC_13.png
+A	pacman/assets/pics/TMC_14.png
+A	pacman/assets/pics/TMC_15.png
+A	pacman/assets/pics/TMC_16.png
+A	pacman/assets/pics/TMC_17.png
+A	pacman/assets/pics/TMC_2.png
+A	pacman/assets/pics/TMC_3.png
+A	pacman/assets/pics/TMC_4.png
+A	pacman/assets/pics/TMC_5.png
+A	pacman/assets/pics/TMC_6.png
+A	pacman/assets/pics/TMC_7.png
+A	pacman/assets/pics/TMC_8.png
+A	pacman/assets/pics/TMC_9.png
+A	pacman/assets/player/brandish_blue.png
+A	pacman/assets/player/brandish_red.png
+A	pacman/assets/player/brandish_yellow.png
+A	pacman/assets/player/powered_state_b.png
+A	pacman/assets/player/powered_state_r.png
+A	pacman/assets/player/powered_state_y.png
+M	pacman/assets/ui/file_select.png
+A	pacman/assets/ui/rupee.png
+A	pacman/assets/ui/rupee_icon.png
+A	pacman/assets/ui/scores_skins.png
+A	pacman/assets/ui/title_screen.png
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/items.py
+M	pacman/game/levels/__init__.py
+A	pacman/game/levels/castor_wilds.py
+A	pacman/game/levels/cave.py
+A	pacman/game/levels/cave_of_flames.py
+A	pacman/game/levels/cloud_tops.py
+A	pacman/game/levels/dark_hyrule_castle.py
+A	pacman/game/levels/deepwood_shrine.py
+A	pacman/game/levels/final_battle.py
+A	pacman/game/levels/fortress_winds.py
+R071	pacman/game/levels/forest_level.py	pacman/game/levels/hyrule_field.py
+A	pacman/game/levels/minish_woods.py
+A	pacman/game/levels/mount_crenel.py
+A	pacman/game/levels/palace_of_winds.py
+A	pacman/game/levels/royal_valley.py
+A	pacman/game/levels/temple_of_droplets.py
+A	pacman/game/levels/vaati_battle.py
+A	pacman/game/levels/wind_ruins.py
+M	pacman/game/scenes/__init__.py
+A	pacman/game/scenes/main_menu_scene.py
+M	pacman/game/scenes/play_scene.py
+A	pacman/game/scenes/title_scene.py
+M	pacman/game/sprites.py
+M	pacman/game/ui.py
+M	pacman/main.py
+M	pacman/resources.py
+
+COMMIT 6cdc725 | 2026-05-11 | sizem | 4 enemies spawn
+M	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/levels/forest_level.py
+M	pacman/game/scenes/play_scene.py
+
+COMMIT 2c58aac | 2026-05-10 | sizem | full AI implementation + debug text visualizer
+M	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/levels/forest_level.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/sprites.py
+M	pacman/main.py
+
+COMMIT 0484e25 | 2026-05-08 | sizem | add simple chasing AI
+A	pacman/game/ai.py
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/items.py
+M	pacman/game/levels/forest_level.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/ui.py
+M	pacman/main.py
+M	pacman/resources.py
+
+COMMIT 813709e | 2026-05-03 | wboussah | added music, ui, special item
+D	pacman/assets/01_level_42.png
+A	pacman/assets/items/green_rupee.png
+R100	pacman/assets/ui/items.png	pacman/assets/items/items.png
+A	pacman/assets/levels/level_1/bridge.png
+D	pacman/assets/link.png
+A	pacman/assets/music/levels/01_hyrule_field.mp3
+A	pacman/assets/music/sfx/item_obtained.wav
+A	pacman/assets/music/sfx/item_spawn.wav
+A	pacman/assets/music/sfx/rupee.wav
+A	pacman/assets/music/sfx/sword_obtain.wav
+A	pacman/assets/player/brandish_00.png
+R100	pacman/assets/minish_cap_sprites.png	pacman/assets/player/minish_cap_sprites.png
+A	pacman/assets/player/powered_state.png
+A	pacman/assets/player/walking.png
+A	pacman/assets/player/win_item.png
+R100	pacman/assets/ui/rupees.png	pacman/assets/ui/hud.png
+M	pacman/game/entities.py
+M	pacman/game/game.py
+A	pacman/game/items.py
+M	pacman/game/levels/forest_level.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/game/sprites.py
+M	pacman/game/ui.py
+
+COMMIT 54045e5 | 2026-05-01 | sizem | game integration
+M	pacman/config.json
+M	pacman/config.py
+M	pacman/game/game.py
+M	pacman/game/scenes/play_scene.py
+M	pacman/main.py
+M	pacman/resources.py
+
+COMMIT 6c259ec | 2026-04-30 | sizem | fix path to ressources
+M	pacman/__init__.py
+R100	assets/01_level_42.png	pacman/assets/01_level_42.png
+R100	assets/01_level_floor.png	pacman/assets/01_level_floor.png
+R100	assets/01_level_walls.png	pacman/assets/01_level_walls.png
+R100	assets/fonts/minish_cap_font.ttf	pacman/assets/fonts/minish_cap_font.ttf
+R100	assets/levels/level_1/lon_lon_ranch.png	pacman/assets/levels/level_1/lon_lon_ranch.png
+R100	assets/levels/level_1/miscs.png	pacman/assets/levels/level_1/miscs.png
+R100	assets/levels/level_1/south_hyrule_field.png	pacman/assets/levels/level_1/south_hyrule_field.png
+R100	assets/link.png	pacman/assets/link.png
+R100	assets/minish_cap_sprites.png	pacman/assets/minish_cap_sprites.png
+R100	assets/ui/file_select.png	pacman/assets/ui/file_select.png
+R100	assets/ui/items.png	pacman/assets/ui/items.png
+R100	assets/ui/rupees.png	pacman/assets/ui/rupees.png
+R100	assets/ui/text.png	pacman/assets/ui/text.png
+M	pacman/game/entities.py
+M	pacman/game/game.py
+M	pacman/game/levels/forest_level.py
+M	pacman/game/sprites.py
+M	pacman/game/ui.py
+M	pacman/highscores.json
+M	pacman/highscores.py
+M	pacman/main.py
+A	pacman/resources.py
+M	pyproject.toml
+
+COMMIT b5f4afa | 2026-04-29 | wboussah | architecture principale faite
+M	.gitignore
+D	.vscode/settings.json
+R100	pacman/assets/01_level_42.png	assets/01_level_42.png
+R100	pacman/assets/01_level_floor.png	assets/01_level_floor.png
+R100	pacman/assets/01_level_walls.png	assets/01_level_walls.png
+A	assets/fonts/minish_cap_font.ttf
+A	assets/levels/level_1/lon_lon_ranch.png
+A	assets/levels/level_1/miscs.png
+A	assets/levels/level_1/south_hyrule_field.png
+R100	pacman/assets/link.png	assets/link.png
+A	assets/minish_cap_sprites.png
+A	assets/ui/file_select.png
+A	assets/ui/items.png
+A	assets/ui/rupees.png
+A	assets/ui/text.png
+D	pacman/game.py
+A	pacman/game/__init__.py
+A	pacman/game/entities.py
+A	pacman/game/game.py
+A	pacman/game/input.py
+A	pacman/game/levels/__init__.py
+A	pacman/game/levels/forest_level.py
+A	pacman/game/levels/level_base.py
+A	pacman/game/scene_manager.py
+A	pacman/game/scenes/__init__.py
+A	pacman/game/scenes/play_scene.py
+A	pacman/game/sprites.py
+A	pacman/game/ui.py
+M	pacman/highscores.json
+M	pacman/main.py
+
+COMMIT c2f7c22 | 2026-04-29 | sizem | highscores handling
+A	.vscode/settings.json
+M	README.md
+M	config.json
+M	pacman/config.json
+R074	pacman/init_config.py	pacman/config.py
+A	pacman/highscores.json
+A	pacman/highscores.py
+M	pacman/main.py
+
+COMMIT ef929d7 | 2026-04-27 | sizem | faulty config handling
+M	README.md
+M	config.json
+M	pacman/config.json
+M	pacman/game.py
+M	pacman/init_config.py
+M	pacman/main.py
+M	uv.lock
+
+COMMIT 8f9717d | 2026-04-26 | Sid IZEM | add config module and main.py entry point
+M	.gitignore
+M	README.md
+M	config.json
+M	pac-man.py
+M	pacman/__init__.py
+A	pacman/config.json
+M	pacman/game.py
+A	pacman/init_config.py
+A	pacman/main.py
+M	pyproject.toml
+
+COMMIT dc0f0d4 | 2026-04-26 | Sid IZEM | folder rework and fix Makefile
+M	Makefile
+M	README.md
+D	assets/en.subject (1).pdf
+D	assets/en.subject (2).pdf
+D	assets/en.subject.pdf
+M	config.json
+A	pac-man.py
+A	pacman/__init__.py
+R100	assets/01_level_42.png	pacman/assets/01_level_42.png
+R100	assets/01_level_floor.png	pacman/assets/01_level_floor.png
+R100	assets/01_level_walls.png	pacman/assets/01_level_walls.png
+R100	assets/link.png	pacman/assets/link.png
+R054	main.py	pacman/game.py
+M	pyproject.toml
+
+COMMIT 8ae7bb3 | 2026-04-26 | wboussah | maze display now operational and folder assets ready
+A	assets/01_level_42.png
+A	assets/01_level_floor.png
+A	assets/01_level_walls.png
+A	assets/en.subject (1).pdf
+A	assets/en.subject (2).pdf
+A	assets/en.subject.pdf
+A	assets/link.png
+M	main.py
+
+COMMIT dc7be07 | 2026-04-25 | Sid IZEM | Makefile
+M	.gitignore
+M	Makefile
+M	README.md
+M	main.py
+A	pyproject.toml
+A	uv.lock
+
+COMMIT 873c65d | 2026-04-24 | wboussah | learning pygame and the package manager
+A	main.py
+
+COMMIT 936f308 | 2026-04-23 | wboussah | init project
+A	.gitignore
+A	Makefile
+A	README.md
+A	config.json
+

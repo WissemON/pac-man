@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pacman"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mazegenerator",
+    "pygame>=2.6.1",
+]
+
+[project.scripts]
+pacman = "pacman.main:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["pacman*"]
+
+# [tool.setuptools.package-data]
+# pacman = [
+#     "config.json",
+#     "highscores.json",
+#     "assets/*",
+#     "assets/**/*",
+# ]
+
+[tool.uv.sources]
+mazegenerator = { path = "mazegenerator-00001-py3-none-any.whl" }
+
+[tool.mypy]
+mypy_path = "typings"

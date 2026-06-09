@@ -1,0 +1,173 @@
+{
+	"lives": 3,
+	"pacgum": 42,
+	"points_per_pacgum": 10,
+	"points_per_super_pacgum": 50,
+	"points_per_ghost": 200,
+	"level_max_time": 300,
+	"seed": 42,
+	"level": [
+		{
+			"1": {
+				"width": 15,
+				"height": 15,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"2": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"3": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"4": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"5": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"6": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"7": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"8": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"9": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"10": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"11": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"12": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"13": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"14": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"15": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			},
+			"16": {
+				"width": 20,
+				"height": 20,
+				"ai": {
+					"scatter_duration": 6.0,
+					"chase_duration": 7.0,
+					"frightened_duration": 6.0,
+					"eaten_duration": 7.0
+				}
+			}
+		}
+	]
+}
